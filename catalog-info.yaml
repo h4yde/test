@@ -5,11 +5,10 @@ metadata:
   description: test
   tags:
     - test
-    - java
   annotations:
     github.com/project-slug: h4yde/test
 spec:
   type: service
   lifecycle: unknown
-  owner: Wizeline
-  system: artist-engagement-portal
+  owner: Wizeline Backstage Team
+  system: test
