@@ -1,10 +1,15 @@
----
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: test
+  description: test
+  tags:
+    - test
+    - java
   annotations:
     github.com/project-slug: h4yde/test
 spec:
-  type: other
+  type: service
   lifecycle: unknown
+  owner: Wizeline
+  system: artist-engagement-portal
